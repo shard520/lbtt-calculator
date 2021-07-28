@@ -1,0 +1,23 @@
+{
+  "name": "lbtt-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "author": "shard520",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
+    "jest": "^27.0.6"
+  }
+}
